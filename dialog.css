@@ -1,0 +1,47 @@
+
+
+.dialog{
+	background-color: cadetblue;
+	border-radius: 5px;
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5);
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 300px;
+	margin: 100px 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center
+}
+
+.dialog ul{
+	list-style: none;
+	padding: 0px;
+	width: 100%;
+}
+
+.dialog li{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left:  20px;	
+}
+
+.dialog li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.arrow{
+	/* create an element of zero width and height */
+	width: 0;
+	height: 0;
+	border-top: 15px solid cadetblue;
+	/* create left and right borders of solid tranparent to  for arrow*/ 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	
+	position: relative;
+	/* should match width of top border */
+	top: 15px;
+		
+}
